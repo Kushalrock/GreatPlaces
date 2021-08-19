@@ -23,7 +23,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  provider: ^3.0.0+1
+  provider: ^4.0.0
+  image_picker: ^0.6.7+22
+  path_provider: ^1.6.28
+  path: ^1.7.0
 
 
   # The following adds the Cupertino Icons font to your application.
