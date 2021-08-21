@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 
 // Widgets Imports
 import '../widgets/image_input.dart';
+import '../widgets/location_input.dart';
 
 // Provider Imports
 import '../providers/great_places.dart';
@@ -64,6 +65,10 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
                       height: 10,
                     ),
                     ImageInput(_selectImage),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    LocationInput(),
                   ],
                 ),
               ),
